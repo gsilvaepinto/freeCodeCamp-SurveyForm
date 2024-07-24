@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: auto; /* Enable scrolling */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.9), rgba(136, 136, 206, 0.9)), url(https://news.uchicago.edu/sites/default/files/styles/full_width/public/images/image/20170906/programming.jpg?itok=wmUdfKwx);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+    color: white;
+    margin-top: 3.5em;
+}
+
+fieldset {
+    border: none;
+}
+
+#container {
+    max-width: 650px;
+
+    background-color: rgba(21, 21, 21, 0.443);
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#name-label,
+#email-label,
+#number-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+::placeholder {
+    color: rgb(78, 74, 74);
+    font-size: 16px;
+}
+
+.optional {
+    font-size: 0.9em;
+}
+
+.first input {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    text-indent: 15px;
+    font-size: 16px;
+    color: rgb(39, 36, 36);
+}
+
+#dropdown {
+    display: block;
+    color: rgb(78, 74, 74);
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#options {
+    font-size: 18px;
+    color: white;
+}
+
+.second {
+    margin-top: 35px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.second input {
+    margin-left: 0;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+input[type="radio"] {
+    transform: scale(1.3);
+}
+
+.selections {
+    margin-top: 12px;
+}
+
+#features {
+    font-size: 18px;
+    color: white;
+}
+
+#dropdown2 {
+    display: block;
+    color: rgb(78, 74, 74);
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.third label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.third input[type="checkbox"] {
+    margin-right: 5px; /* Adjust as needed */
+    transform: scale(1.3);
+}
+
+.third{
+    margin-top: 35px;
+    color: white;
+    font-size: 18px;
+}
+
+span{
+    font-size: 15px;
+}
+
+#checks{
+    margin-bottom: 15px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 10px;
+    resize: none;
+    font-size: 16px;
+    color: rgb(39, 36, 36);
+    padding: 15px;
+}
+
+.fourth{
+    margin-top: 35px;
+    color: white;
+}
+
+#suggestions{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+button{
+    display: flex;
+    padding: 23px;
+    margin: 35px auto 0 auto;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    color: white;
+    background-color: #36B065;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid gray;
+}
