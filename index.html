@@ -26,7 +26,7 @@
                     <input type="number" id="number" min="12" max="90" placeholder="Age" required>
 
                     <label for="dropdown" id="options">
-                        Would you recommend freeCodeCamp to a friend?
+                        Which option best describes your current role?
                         <select id="dropdown">
                             <option value="" disabled selected>Select current role</option>
                             <option value="option1">Student</option>
@@ -38,34 +38,28 @@
                     </label>
                 </fieldset>
                 <fieldset class="second">
-                    <label class="recccomendation" for="option1">Would you recommend freeCodeCamp to a friend?</label>
+                    <label class="recommendation">Would you recommend freeCodeCamp to a friend?</label>
                     <div class="selections">
-                        <label for="option1">
-                            <input type="radio" id="option1" name="options" value="option1">
-                            Definitely
-                        </label>
+                        <input type="radio" id="definitely" name="recommendation" value="definitely">
+                        <label for="definitely">Definitely</label>
                         <br>
-                        <label for="option2">
-                            <input type="radio" id="option2" name="options" value="option2">
-                            Maybe
-                        </label>
+                        <input type="radio" id="maybe" name="recommendation" value="maybe">
+                        <label for="maybe">Maybe</label>
                         <br>
-                        <label for="option3">
-                        <input type="radio" id="option3" name="options" value="option3">
-                        Not sure
-                    </label>
+                        <input type="radio" id="not-sure" name="recommendation" value="not-sure">
+                        <label for="not-sure">Not sure</label>
                     </div>
+                </fieldset>
                 </fieldset>
                 <fieldset class="first">
                     <label for="dropdown2" id="features">
-                        Would you recommend freeCodeCamp to a friend?
+                        What is your favorite feature of freeCodeCamp?
                         <select id="dropdown2">
-                            <option value="" disabled selected>Select current role</option>
-                            <option value="option1">Student</option>
-                            <option value="option2">Full Time Job</option>
-                            <option value="option3">Full Time Learner</option>
-                            <option value="option4">Prefer not to say</option>
-                            <option value="option5">Other</option>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="option1">Challenges</option>
+                            <option value="option2">Projects</option>
+                            <option value="option3">Community</option>
+                            <option value="option4">Open source</option>
                         </select>
                     </label>
                 </fieldset>
