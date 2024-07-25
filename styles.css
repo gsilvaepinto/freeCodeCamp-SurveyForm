@@ -6,7 +6,7 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
-    overflow: auto; /* Enable scrolling */
+    overflow: auto; 
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -89,11 +89,27 @@ fieldset {
     padding-left: 10px;
     font-size: 16px;
     margin-top: 5px;
+    text-indent: 10px;
 }
 
 #options {
     font-size: 18px;
     color: white;
+}
+
+.second input[type="radio"] {
+    margin-right: 10px; 
+}
+
+.selections label {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.selections input[type="radio"] {
+    transform: scale(1.3);
+    vertical-align: middle;
 }
 
 .second {
@@ -103,18 +119,8 @@ fieldset {
     margin-bottom: 25px;
 }
 
-.second input {
-    margin-left: 0;
-    margin-bottom: 15px;
-    margin-right: 5px;
-}
-
-input[type="radio"] {
-    transform: scale(1.3);
-}
-
 .selections {
-    margin-top: 12px;
+    margin-top: 23px;
 }
 
 #features {
@@ -132,6 +138,7 @@ input[type="radio"] {
     padding-left: 10px;
     font-size: 16px;
     margin-top: 5px;
+    text-indent: 10px;
 }
 
 .third label{
@@ -140,12 +147,14 @@ input[type="radio"] {
 }
 
 .third input[type="checkbox"] {
-    margin-right: 5px; /* Adjust as needed */
+    margin-right: 5px; 
     transform: scale(1.3);
+    vertical-align: middle;
+    
 }
 
 .third{
-    margin-top: 35px;
+    margin-top: 40px;
     color: white;
     font-size: 18px;
 }
