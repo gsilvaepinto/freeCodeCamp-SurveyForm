@@ -1,0 +1,1 @@
+This project is a simple survey form created as part of the freeCodeCamp curriculum. It collects user feedback to help improve the platform. The form includes various input fields, dropdown menus, radio buttons, checkboxes, and a textarea for comments.
